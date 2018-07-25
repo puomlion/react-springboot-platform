@@ -1,0 +1,30 @@
+body {
+  background: #f3f1f2;
+  font-family: sans-serif;
+}
+
+.questionEditor .ql-container {
+  background: #fff;
+  font-size: 22px;
+}
+
+/* Snow Theme */
+.questionEditor .ql-snow.ql-toolbar {
+  display: block;
+  background: #eaecec;
+
+}
+/* Bubble Theme */
+.questionEditor .ql-bubble {
+  z-index: 100;
+}
+
+.questionEditor .ql-editor {
+  min-height: 15em;
+}
+
+.groupIndividual .ql-editor {
+  min-height: 12em;
+  max-height: 12em;
+  overflow-y: scroll;
+}
